@@ -1,0 +1,5 @@
+package com.plus.app.exampleSQL.repository;
+
+public class AddressRepository {
+
+}

@@ -1,0 +1,20 @@
+package com.plus.app.exampleSQL.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.plus.app.exampleSQL.dao.CustomerDAO;
+
+@Service
+public class CustomerService {
+
+	@Autowired
+	private CustomerDAO customerDAO;
+	
+	public List<Customer> findAllCustomer() {
+		return customerDAO.findAll();
+	}
+	
+}

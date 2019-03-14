@@ -1,0 +1,5 @@
+package com.plus.app.exampleSQL.model;
+
+public class Customer {
+
+}

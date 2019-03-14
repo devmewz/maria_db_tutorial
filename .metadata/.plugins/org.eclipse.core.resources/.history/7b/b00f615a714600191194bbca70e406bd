@@ -1,0 +1,11 @@
+package com.plus.app.exampleSQL.dao;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.plus.app.exampleSQL.domain.Customer;
+
+@Repository
+public interface CustomerDAO extends CrudRepository<Customer, Long> {
+
+}
